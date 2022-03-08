@@ -13,7 +13,7 @@ export default {
 };
 
 const Template = (args) => (
-  <div className="container mx-auto py-12">
+  <div className="container mx-auto">
     <Header {...args} />
   </div>
 );
