@@ -7,22 +7,18 @@ export default function Home() {
   const header = {
     nav: {
       items: [
-        { href: '#first', text: 'first', isActive: true },
-        { href: '#second', text: 'second' },
+        { href: '#intro', text: 'first' },
+        { href: '#experiments', text: 'second' },
         { href: '#third', text: 'third' },
       ],
     },
     avatar: {
-      img: {
-        alt: 'Avatar',
-        width: 48,
-        height: 48,
-      },
       text: 'dav/d',
     },
   };
 
   const intro = {
+    id: 'intro',
     title: {
       title: 'I make garbage.',
       className: '',
@@ -35,6 +31,7 @@ export default function Home() {
   };
 
   const collection = {
+    id: 'experiments',
     title: 'Experiments',
     cards: [
       {
