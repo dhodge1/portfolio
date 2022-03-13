@@ -35,6 +35,7 @@ export default function Home() {
   };
 
   const collection = {
+    title: 'Experiments',
     cards: [
       {
         img: {
