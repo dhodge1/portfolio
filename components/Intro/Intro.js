@@ -12,9 +12,9 @@ const Intro = ({ title, byline, description }) => {
   };
 
   return (
-    <div className="flex flex-[1_0_auto] flex-col justify-center p-[2rem_0_4rem] min-h-[500px]">
+    <div className="flex flex-[1_0_auto] flex-col justify-center p-[2rem_0_4rem] lg:min-h-[500px]">
       <div className="flex flex-col">
-        <Title {...title} className="mb-8" />
+        <Title {...title} className="mb-4 md:mb-8" />
         <Byline {...byline} className="mb-4 -order-1" />
         <Description {...description}>
           <p>

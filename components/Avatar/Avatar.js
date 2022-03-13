@@ -4,7 +4,7 @@ const Avatar = ({ img, text }) => {
   const { src, alt, width, height } = img;
   return (
     <div className="flex flex-row items-center">
-      {img && (
+      {src && (
         <div className="mr-2">
           <Image
             src={src}
@@ -15,7 +15,7 @@ const Avatar = ({ img, text }) => {
           />
         </div>
       )}
-      {text && <p className="font-bold">{text}</p>}
+      {text && <p className="font-bold text-lg">{text}</p>}
     </div>
   );
 };
