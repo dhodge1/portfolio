@@ -7,7 +7,7 @@ export default function Home() {
   const header = {
     nav: {
       items: [
-        { href: '#intro', text: 'first' },
+        { href: '#intro', text: 'first', isActive: true },
         { href: '#experiments', text: 'second' },
         { href: '#third', text: 'third' },
       ],

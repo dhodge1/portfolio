@@ -3,7 +3,9 @@ import Link from 'next/link';
 
 const NavItem = ({ href, text, isActive }) => {
   const router = useRouter();
-  const isActiveItem = isActive ?? router.asPath.includes(href);
+  const isActiveItem = router.asPath.includes('#')
+    ? router.asPath.includes(href)
+    : isActive;
   const itemClasses = `${
     isActiveItem && 'after:!bg-primary after:transform-none'
   } list-none relative after:block after:h-1 after:bg-border after:absolute after:inset-x-5 -after:bottom-1 after:scale-x-0 after:origin-[0 50%] after:transition-transform after:duration-300 hover:after:scale-x-100`;
