@@ -17,7 +17,11 @@ module.exports = {
       textOffset: '#818a91',
       backgroundOffset: '#f7f7f9',
     },
-    extend: {},
+    extend: {
+      screens: {
+        '2xl': '1280px',
+      },
+    },
   },
   plugins: [],
 };
