@@ -126,14 +126,16 @@ export default function Home() {
   };
 
   return (
-    <div className="container mx-auto px-4 md:px-8">
+    <>
       <Head>
         <title>dav/d</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header {...header} />
-      <Intro {...intro} />
-      <Collection {...collection} />
-    </div>
+      <Header {...header} className="container mx-auto px-4 md:px-8" />
+      <div className="container mx-auto px-4 md:px-8">
+        <Intro {...intro} />
+        <Collection {...collection} />
+      </div>
+    </>
   );
 }

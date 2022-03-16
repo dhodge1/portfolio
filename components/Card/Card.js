@@ -5,7 +5,7 @@ const Card = ({ img, title, description }) => {
   const textClass =
     'relative opacity-0 transition-opacity group-hover:opacity-100 group-hover:transform-none hover:translate-x-0 hover:translate-y-0';
   return (
-    <div className="group rounded relative block overflow-hidden transition-all ease-linear text-background hover:bg-secondary bg-transparent hover:cursor-pointer hover:scale-110">
+    <div className="group rounded relative block overflow-hidden transition-all ease-in-out text-background hover:bg-secondary bg-transparent hover:cursor-pointer md:hover:scale-110">
       <Image
         className="mix-blend-multiply grayscale-0 hover:grayscale hover:contrast-100 hover:brightness-90 hover:drop-shadow-lg"
         src={src}
