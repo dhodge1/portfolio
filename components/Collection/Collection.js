@@ -2,7 +2,7 @@ import Card from '../Card/Card';
 
 const Collection = ({ cards, title = null, id = null }) => {
   return (
-    <>
+    <div className="mb-[4rem]">
       {title && (
         <h1 id={id} className={`font-serif bold text-3xl md:text-4xl mb-10`}>
           {title}
@@ -13,7 +13,7 @@ const Collection = ({ cards, title = null, id = null }) => {
           <Card {...card} key={card.title} />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
