@@ -25,7 +25,7 @@ a {
       position: inherit;
     }
     & .featured-content {
-      grid-column: 7 / -1;
+      grid-column: 8 / -1;
       text-align: right;
     }
     & .featured-image {
