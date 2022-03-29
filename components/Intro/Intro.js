@@ -6,8 +6,8 @@ import DecoratedLink from '../DecoratedLink/DecoratedLink';
 
 const Intro = ({ title, byline, description, id = null }) => {
   const linkProps = {
-    href: '#',
-    text: 'Fancy',
+    href: 'https://www.discovery.com/',
+    text: 'Discovery',
     className: '',
     color: 'after:bg-primary',
   };
@@ -22,10 +22,11 @@ const Intro = ({ title, byline, description, id = null }) => {
           <Title {...title} className="mb-4 md:mb-8" />
           <Byline {...byline} className="mb-4 -order-1" />
           <Description {...description}>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.{' '}
-              <DecoratedLink {...linkProps} /> cumque minima hic. <br /> totam
-              corrupti rerum aliquam. Placeat.
+            <p className="max-w-[946px]">
+              I'm a <strong>developer</strong> and{' '}
+              <strong>mechanical engineer</strong> specializing in creating
+              interactive user experiences. I currently build web applications
+              at <DecoratedLink {...linkProps} />.
             </p>
           </Description>
           <div className="flex mt-3">

@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import DecoratedLink from '../DecoratedLink/DecoratedLink';
 
-const FeaturedCard = ({ img, title, description }) => {
+const FeaturedCard = ({ img, title, description, href = '#' }) => {
   const { src, alt, width, height } = img;
   const linkProps = {
-    href: '#',
+    href,
     text: title,
     className:
       'decorated-link font-serif bold text-2xl mb-3 text-text self-start',

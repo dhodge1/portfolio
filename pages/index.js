@@ -21,11 +21,11 @@ export default function Home() {
   const intro = {
     id: 'intro',
     title: {
-      title: 'I make garbage.',
+      title: 'I make stuff.',
       className: '',
     },
     byline: {
-      children: 'Hi, my name is ___',
+      children: 'Hey, my name is dav/d',
       className: '',
     },
     description: {},
@@ -37,36 +37,39 @@ export default function Home() {
     cards: [
       {
         img: {
-          src: 'https://picsum.photos/300',
-          alt: 'Avatar',
+          src: '/discosuite.png',
+          alt: 'Discovery',
           width: 300,
           height: 200,
         },
-        title: 'Lorem, ipsum.',
+        title: 'Discovery CORE',
+        href: 'https://www.discovery.com/',
         description:
-          'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, eligendi?',
+          'Scalable sitebuilder platform consisting of an extensible theming system + component library + custom content management systems used to build rich multimedia & commerce experiences across the full suite of Discovery brands including the Discovery, HGTV, Food Network & Travel Channel.',
       },
       {
         img: {
-          src: 'https://picsum.photos/300',
-          alt: 'Avatar',
+          src: '/fnk.png',
+          alt: 'Food Network Kitchen',
           width: 300,
           height: 200,
         },
-        title: 'Lorem, ipsum.',
+        title: 'Food Network Kitchen',
+        href: 'https://kitchen.foodnetwork.com/#/get-cooking',
         description:
-          'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, eligendi?',
+          'Direct-to-consumer web app built with GraphQL + Next.js + React + Styled Components that offered live streaming cooking classes, interactive Q&A, shopping lists & personalized meal planning. Supported by a standalone subscription + user management SPA written in Vue.',
       },
       {
         img: {
-          src: 'https://picsum.photos/300',
-          alt: 'Avatar',
+          src: '/magnolia.png',
+          alt: 'Magnolia',
           width: 300,
           height: 200,
         },
-        title: 'Lorem, ipsum.',
+        title: 'Magnolia',
+        href: 'https://magnolia.com/',
         description:
-          'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, eligendi?',
+          'Express API + Next.js web client + headless Shopify client supporting personalized workshops, interactive multimedia experiences and commerce across a variety of platforms supported that offer the Magnolia Network.',
       },
     ],
   };
