@@ -23,7 +23,7 @@ const Intro = ({ title, byline, description, id = null }) => {
           <Byline {...byline} className="mb-4 -order-1" />
           <Description {...description}>
             <p className="max-w-[946px]">
-              I'm a <strong>developer</strong> and{' '}
+              I&#39;m a <strong>developer</strong> and{' '}
               <strong>mechanical engineer</strong> specializing in creating
               interactive user experiences. I currently build web applications
               at <DecoratedLink {...linkProps} />.
