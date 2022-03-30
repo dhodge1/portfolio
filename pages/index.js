@@ -80,14 +80,14 @@ export default function Home() {
     cards: [
       {
         img: {
-          src: 'https://picsum.photos/300',
-          alt: 'Avatar',
+          src: '/scraper.png',
+          alt: 'Product Scraper Extension',
           width: 300,
           height: 300,
         },
-        title: 'Lorem, ipsum.',
+        title: 'Product Ingest Extension',
         description:
-          'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, eligendi?',
+          'Neat little chrome extension to scrape product metadata for affiliate commerce purposes.',
       },
       {
         img: {
