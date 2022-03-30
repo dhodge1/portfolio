@@ -86,6 +86,7 @@ export default function Home() {
           height: 300,
         },
         title: 'Product Ingest Extension',
+        link: 'https://github.com/dhodge1/product-scraper-ext',
         description:
           'Neat little chrome extension to scrape product metadata for affiliate commerce purposes.',
       },
